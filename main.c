@@ -26,14 +26,14 @@ int main() {
         fgets(command, 100, stdin);
         command[strlen(command)-1] = '\0';
 
-        if (strcmp(command, "plasma -q") == 0) {
+        if (strcmp(command, "quit") == 0) {
             run = 0;
         }
 
-        else if(strcmp(command, "-help")==0) {
-            printf("working commands:\nplasma -q(exits from plasma)\nplasma --v(tells the version of plasma)");
+        else if(strcmp(command, "help")==0) {
+            printf("working commands:\nquit (exits from plasma)\nversion (tells the version of plasma)\n");
         }
-        else if (strcmp(command, "plasma --v") == 0) {
+        else if (strcmp(command, "version") == 0) {
             printf("plasma version\n0.0.1 alpha\n");
         }
         else {

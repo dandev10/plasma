@@ -1,3 +1,3 @@
 all:
-		gcc main.c -std=c17 -o main
-		./main
+	gcc main.c -std=c17 -o plasma
+	./plasma
