@@ -17,4 +17,13 @@ called Plasma code.
 ## Plasma code
 
 Plasma code is a language for plasma 
-that can understand. Plasma code is not available.
+that can understand. Plasma code is not available yet.
+
+
+## copy and use
+
+before copying the code include this
+file into your copy, and read the license.
+include this link (https://github.com/DANILAO1) that includes
+the real creator of plasma.
+
